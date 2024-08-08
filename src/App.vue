@@ -59,7 +59,7 @@ import {computed, onMounted, ref} from "vue";
 const isShowCountdown = ref(true)
 const isPhone = ref(false)
 const now = new Date()
-const playTime = new Date(2024, 7, 20, 0, 0, 0, 0)
+const playTime = new Date(2024, 7, 20, 10, 0, 0, 0)
 const countdownTime = computed(() => {
   return playTime - now
 })
